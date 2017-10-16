@@ -34,6 +34,7 @@
                         <!-- Data goes in here! -->
                         {{ task.name }} 
                         <span class="pull-right">
+                                     <!-- Use the $http client to delete a task by its id -->
                             <button class="btn btn-xs btn-danger" v-on:click="deleteTask($index)">
                                 <i class="fa fa-trash-o" aria-hidden="true"></i>
                             </button>
